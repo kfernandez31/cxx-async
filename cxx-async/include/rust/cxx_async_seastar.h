@@ -27,7 +27,7 @@
 #include <seastar/core/future.hh>
 #include <seastar/core/std-coroutine.hh>
 #include <seastar/core/make_task.hh>
-#include "rust/cxx_async.h"
+#include "cxx_async.h"
 
 namespace rust {
 namespace async {
